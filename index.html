@@ -1,9 +1,19 @@
-<style>
-  html, body { margin:0; background:#000; }
-  #box { width:100%; height:100vh; overflow:hidden; background:#000; position:relative; }
-  #box iframe { position:absolute; top:-8px; left:-8px; width:calc(100% + 16px); height:calc(100% + 16px); border:0; }
-</style>
-
-<div id="box">
-  <iframe src="https://docs.google.com/spreadsheets/d/1mUcWQXpAJojsGUXBFaPXz8Jl8p3I2xQVoYG9kW0Os3w/edit?gid=1184364044#gid=1184364044&range=E1:AB27&widget=false&headers=false&chrome=false"></iframe>
-</div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connecting Dashboards</title>
+  <style>
+    html, body { margin:0; height:100%; background:#000; overflow:hidden; }
+    iframe { position:absolute; inset:0; width:100%; height:calc(100% + 60px); border:0; }
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://app.powerbi.com/view?r=eyJrIjoiOGM4MmIwNzEtNGM5Yi00YmZmLWI1MjctM2M5MTA4Nzk3YWJkIiwidCI6IjgwZGNhMWRkLTEyOTMtNDc1Mi04NTM1LTQ4NzBhNTdmMzY1ZSJ9"
+    allow="fullscreen"
+    allowfullscreen>
+  </iframe>
+</body>
+</html>
